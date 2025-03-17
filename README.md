@@ -1,3 +1,9 @@
+# if pico-lib is not pulled after cloning the repo
+
+git submodule update --recursive
+or
+git submodule update --init
+
 # MicroPython libraries for the first year hardware project
 
 This is an example project that can be used to install MicroPython libraries that are needed for
